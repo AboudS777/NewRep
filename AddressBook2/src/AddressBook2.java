@@ -23,9 +23,12 @@ public class AddressBook2 {
 	
 	public static void main(String aargs[]){
 		buddyinfo2 buddy = new buddyinfo2("Tom", "carleton", 123412);
+		buddyinfo2 buddy2 = new buddyinfo2("Jack", "carleton", 16512);
 		AddressBook2 addressBook = new AddressBook2();
 		addressBook.addContact(buddy);
+		addressBook.addContact(buddy2);
 		addressBook.removeBuddy(0);
+		
 	}
 	
 
